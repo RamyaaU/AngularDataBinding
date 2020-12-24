@@ -1,3 +1,6 @@
+//app.module.ts - indicating this a typescript file
+
+//importing core modules of angular
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
