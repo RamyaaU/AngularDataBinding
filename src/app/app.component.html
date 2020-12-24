@@ -4,7 +4,8 @@ BridgeLabz”  -->
   <h1>{{this.title}}</h1>
 <!-- UC-2 Display BridgeLabz Logo -->
 <!-- UC-2 Property Binding Technique img element had property called source that is bound by imgurl-->
-  <img [src]="imgUrl" alt="logo"/>
+  <img [src]="imgUrl" (click)="onClick($event)"
+  alt="logo"/>
 </div>
 
 <router-outlet></router-outlet>
